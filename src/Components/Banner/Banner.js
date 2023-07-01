@@ -52,7 +52,7 @@ const Banner = ()=>{
             </Col>
             </Row>
             </Container>
-            {/* <Skills/> */}
+            <Skills/>
         </section>
     )
 }

@@ -302,11 +302,14 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
 .skill-box {
   display: flex;
   flex-wrap: wrap;
-  backdrop-filter: blur(6px);
+  /* background-color: #282c34; */
+  backdrop-filter: blur(20px);
   justify-content: center;
-  margin: 40px 100px;
+  margin: 5rem 1rem;
   border-radius: 13px;
   flex-direction: column;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .skill-box h2 {
@@ -315,12 +318,33 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
   font-weight: 500;
 }
 
-.skill-box .items  html{
-  background-image: url('./assets/img/image-removebg-preview\ \(2\).png');
-  height: 40px;
-  width: 40px;
+.skill-box .items{
+  margin:3rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:1rem;
+ 
 }
-
+.skill-box .items .item{
+  margin:1rem;
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 1px 0px 10px 2px white;
+}
+.skill-box .items .item:hover {
+ background-color: white;
+ 
+}
+.skill-box .items .item img{
+  /* box-shadow: 1px 1px 1px 1px #fff;
+  border-radius: 30%; */
+  object-fit: contain;
+}
 
 
 
