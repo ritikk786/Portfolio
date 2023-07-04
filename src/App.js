@@ -3,6 +3,7 @@ import './App.css';
 import Navbarlist from './Components/Header/Navbarlist';
 import Banner from './Components/Banner/Banner';
 import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbarlist/>
       <Banner/>
       {/* <Skills/> */}
+      <Projects/>
     </div>
   );
 }

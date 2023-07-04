@@ -299,7 +299,9 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
   border-right: 5px solid #fff;
 }
 
+/* Skills */
 .skill-box {
+ 
   display: flex;
   flex-wrap: wrap;
   /* background-color: #282c34; */
@@ -346,6 +348,53 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
   object-fit: contain;
 }
 
+/* Project */
+.project-box{
+  /* margin: 10rem 0; */
+  /* background:   linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
+}
+.project-box h2{ 
+    
+    font-size: 40px;
+    font-family: emoji;
+    font-weight: 500;
+}
+
+.project-box h2~p{ 
+  letter-spacing: 1px;
+}
+.project-box .project-card{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+  /* background-color: lightslategrey; */
+  background:   linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  width: 70%;
+  padding: 10px;
+  border-radius:10px;
+}
+@media screen and (max-width:768px) {
+  .project-box .project-card{
+    width: 90%;
+  }
+}
+.project-card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit:contain
+}
+.project-box .project-card .project-description h3{
+  border-bottom: 1px solid white;
+}
+
+.project-box .project-card .project-description p{
+  font-size: 1em;
+  text-align: initial;
+  font-weight: 300;
+  /* font-family: auto; */
+  letter-spacing: 1px;
+}
 
 
 .App {

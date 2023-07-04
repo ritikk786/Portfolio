@@ -11,7 +11,8 @@ import wordpress from '../../assets/img/wordpress logo.png';
 import photshop from '../../assets/img/adobe-photoshop-logo-0.png'
 const Skills = () => {
     return (
-        <div className="skill-box">
+    
+        <div className="skill-box" id='skills'>
             <h2>My Skills</h2>
             <div className="items">
                 <div className="item">
@@ -47,6 +48,7 @@ const Skills = () => {
                
             </div>
         </div>
+     
     )
 }
 export default Skills;
