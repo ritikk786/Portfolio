@@ -409,7 +409,7 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
 /* Contact */
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 0px 0;
 }
 .contact img {
   width: 92%;
@@ -481,7 +481,8 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
   background-color: #fff;
   border-radius: 2rem;
   padding: 1rem;
-  transform: translateY(calc(50% - 2rem));
+  margin: 0 1rem;
+  transform: translateY(calc(50% - 0.1rem));
 }
 .contact .resume-container h2{
   color: black;
@@ -499,6 +500,29 @@ nav.navbar .navbar-toggler[aria-expand='true'] .navbar-toggler-icon {
   text-decoration: none;
   transition: scale .3s;
   color: #fff;
+}
+.contact .resume-container a:hover{
+ scale: 1.2;
+}
+footer{
+  
+  padding:2rem 1rem 2rem;
+  background-image: url('../src/assets/img/footer-bg.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer img{
+  width: 6rem;
+}
+footer .footer-container{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+footer .footer-container p{
+  margin: 0;
 }
 
 .App {
