@@ -11,6 +11,7 @@ const Projects = ()=>{
             <p>Here is the list of my project, that i have created during my course</p>
            
             <Row className="project-card">
+             
                 <Col xs={12} md={6} xl={7} className="project-image">
                     <img src={expensetracker} />
                 </Col>
@@ -30,6 +31,7 @@ const Projects = ()=>{
                         </div>
                     </p>
                 </Col>
+             
             </Row>
                
             {/* 2nd project */}
