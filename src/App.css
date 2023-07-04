@@ -524,6 +524,11 @@ footer .footer-container{
 footer .footer-container p{
   margin: 0;
 }
+@media screen and (max-width:768px) {
+  footer .footer-container p{
+    display: none;
+  }
+}
 
 .App {
   text-align: center;
