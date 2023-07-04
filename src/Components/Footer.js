@@ -10,9 +10,9 @@ const Footer = () =>{
                <img src={rk} alt="footer-image"/>
                <p>&#169; Copyright 2023 Ritik Kumar</p>
                <div className='social-icon'>
-               <a href='www.linkedin.com/in/ritikk786' target="_blank"><img src={navicon1} alt=''/></a>
-                <a href='#'><img src={navicon3} alt=''/></a>
-                <a href='https://github.com/ritikk786' target="_blank"><img src={navicon2} alt=''/></a>
+               <a href='www.linkedin.com/in/ritikk786' target="_blank"><img src={navicon1} alt='linkedin'/></a>
+                <a href='https://www.instagram.com/__ritik786/'><img src={navicon3} alt='intagram'/></a>
+                <a href='https://github.com/ritikk786' target="_blank"><img src={navicon2} alt='github'/></a>
                </div>
             </div>
         </footer>
