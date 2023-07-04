@@ -58,6 +58,7 @@ nav.navbar {
   top: 0;
   z-index: 20;
   transition: 0.3s ease-in-out;
+  
 }
 
 nav.navbar.scrolled {
@@ -103,7 +104,43 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
 span.navbar-text {
   display: flex;
   align-items: center;
+  justify-content:center;
 }
+.navbar-text .social-icon~a{
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  /* padding: 18px 34px; */
+  padding: 9px 17px;
+  font-size: 18px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+.navbar-text .social-icon~a::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.navbar-text .social-icon~a:hover {
+  color: #121212;
+}
+
+.navbar-text .social-icon~a:hover::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 
 .social-icon a {
   width: 42px;
@@ -170,6 +207,19 @@ span.navbar-text {
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
+}
+@media screen and (max-width:768px) {
+nav.navbar {
+  backdrop-filter: blur(9px);
+  }
+  .navbar-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
 }
 
 .navbar-text button:hover {
