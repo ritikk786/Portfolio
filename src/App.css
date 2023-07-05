@@ -568,7 +568,7 @@ footer img{
 footer .footer-container{
   padding-top: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center
 }
 footer .footer-container p{

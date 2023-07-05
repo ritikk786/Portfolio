@@ -26,7 +26,7 @@ const Projects = ()=>{
                        </ul>
                         <div className='projectlink-container'>
 
-                        <Button>Live</Button>
+                        <a href='https://expensetrackerapplicationproject.netlify.app/' target='_blank'> <Button>live</Button></a>
                         
                         </div>
                     </p>
@@ -48,7 +48,7 @@ const Projects = ()=>{
                         <li>User can see all the mails they have sent or receive</li>
                         <li>Integrated react-jodit text editor for composing the mails.</li>
                        </ul>
-                        <Button>link</Button>
+                       <a href='https://mailboxappproject.netlify.app' target='_blank'> <Button>live</Button></a>
                     </p>
                 </Col>
             </Row>
@@ -66,7 +66,7 @@ const Projects = ()=>{
                         <li>Added Page protection to any unauthorized user.</li>
                         <li>Added a cart badge where user can see total number of cart items.</li>
                        </ul>
-                        <Button>link</Button>
+                       <a href='https://genricsstore.netlify.app' target='_blank'> <Button>live</Button></a>
                     </p>
                 </Col>
             </Row>

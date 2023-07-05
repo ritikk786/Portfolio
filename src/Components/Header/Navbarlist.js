@@ -57,9 +57,9 @@ const Navbarlist = ()=>{
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='www.linkedin.com/in/ritikk786'><img src={navicon1} alt='linkedin'/></a>
-                <a href='https://www.instagram.com/__ritik786/'><img src={navicon3} alt='instagram'/></a>
-                <a href='https://github.com/ritikk786'><img src={navicon2} alt='github'/></a>
+                <a href='https://www.linkedin.com/in/ritikk786' target='_blank'><img src={navicon1} alt='linkedin'/></a>
+                <a href='https://www.instagram.com/__ritik786/' target='_blank'><img src={navicon3} alt='instagram'/></a>
+                <a href='https://github.com/ritikk786' target='_blank'><img src={navicon2} alt='github'/></a>
             </div>
            
             {/* <button className='vvd' ><span>Let's Connect</span></button> */}
