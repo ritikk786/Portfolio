@@ -96,8 +96,11 @@ nav.navbar .navbar-nav .active.nav-link.navbar-link {
 
 }
 
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+/* nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link:active {
+  opacity: 1;
+} */
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
   opacity: 1;
 }
 
@@ -211,7 +214,7 @@ span.navbar-text {
 #basic-navbar-nav p{
   display: none;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:996px) {
 nav.navbar {
   backdrop-filter: blur(9px);
   }
@@ -221,12 +224,20 @@ nav.navbar {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    
   }
-  #basic-navbar-nav p{
+  /* #basic-navbar-nav p{
     display: block;
     margin-top: 1rem;
-  }
+  } */
 }
+@media screen and (max-width:768px) {
+  
+    #basic-navbar-nav p{
+      display: block;
+      margin-top: 1rem;
+    }
+  }
 
 .navbar-text button:hover {
   color: #121212;
