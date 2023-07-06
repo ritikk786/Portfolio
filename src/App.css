@@ -208,6 +208,9 @@ span.navbar-text {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
+#basic-navbar-nav p{
+  display: none;
+}
 @media screen and (max-width:768px) {
 nav.navbar {
   backdrop-filter: blur(9px);
@@ -219,7 +222,10 @@ nav.navbar {
     justify-content: center;
     gap: 1rem;
   }
-
+  #basic-navbar-nav p{
+    display: block;
+    margin-top: 1rem;
+  }
 }
 
 .navbar-text button:hover {

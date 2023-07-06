@@ -65,6 +65,7 @@ const Navbarlist = ()=>{
             {/* <button className='vvd' ><span>Let's Connect</span></button> */}
             <a href='#connect'><span>Let's Connect</span></a>
           </span>
+          <p>&#169; Copyright 2023 Ritik Kumar</p>
         </Navbar.Collapse>
       </Container>
     </Navbar>
