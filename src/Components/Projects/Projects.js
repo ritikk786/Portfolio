@@ -2,6 +2,7 @@ import { Button, Col, Row } from 'react-bootstrap'
 import expensetracker from '../../assets/img/expensetracker.png'
 import genric from '../../assets/img/genric store.png'
 import mailbox from '../../assets/img/mailbox.png'
+import {motion} from 'framer-motion'
 import './Project.css'
 const Projects = ()=>{
     return(
@@ -10,8 +11,8 @@ const Projects = ()=>{
             <h2>Projects</h2>
             <p>Here is the list of my project, that i have created during my course</p>
            
-            <Row className="project-card">
-             
+           
+                <Row className="project-card">
                 <Col xs={12} md={6} xl={7} className="project-image">
                     <img src={expensetracker} />
                 </Col>
@@ -31,8 +32,8 @@ const Projects = ()=>{
                         </div>
                     </p>
                 </Col>
-             
-            </Row>
+                </Row>
+       
                
             {/* 2nd project */}
             <Row className="project-card">
